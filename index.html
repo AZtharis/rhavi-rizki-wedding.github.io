@@ -58,6 +58,12 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lavishly+Yours&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gilda+Display&family=Lavishly+Yours&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 
     <!-- Dependencies CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.css" integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI=" crossorigin="anonymous">
@@ -71,7 +77,7 @@
 
 <body data-key="bfb9cfea33ab7ae21a315fbd6f065a815d3e20ff2f007aa2ca" data-url="https://api.ulems.my.id/" style="overflow-y: hidden;">
 
-    <!-- Navbar Bottom -->
+    <!-- Navbar Bottom 
     <nav class="navbar bg-dark navbar-expand fixed-bottom rounded-top-4 border-top p-0" id="navbar-menu">
         <ul class="navbar-nav nav-justified w-100 align-items-center">
             <li class="nav-item">
@@ -105,40 +111,53 @@
                 </a>
             </li>
         </ul>
-    </nav>
+    </nav>-->
 
     <!-- Main Content -->
     <main class="bg-dark text-light" data-bs-spy="scroll" data-bs-target="#navbar-menu" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
 
         <!-- Home -->
-        <section id="home" class="position-relative overflow-hidden p-0 m-0">
-            <img src="./assets/images/bg.png" alt="bg" class="bg-cover-home">
-            <div class="position-relative text-center pt-4 pb-0 px-0 m-0">
-                <h1 class="font-esthetic my-4 fw-medium" style="font-size: 2.5rem;">Undangan Pernikahan</h1>
+        <section id="home" class="position-relative overflow-hidden p-0 m-0" style="background-color: #ffffff;">
+            <div class="bg-custom-white">
+                <!--<img src="./assets/images/bg.png" alt="bg" class="bg-cover-home">-->
+                <div class="position-relative text-center pt-4 pb-0 px-0 m-0">
+                    <h2 class="gilda-display-regular" style="font-size: 12px; margin-top: 3rem; margin-bottom: .5rem; color: #3F454B;">WELCOME TO</h2>
+                    <h1 class="lavishly-yours-regular" style="font-size: 32px; color: #3F454B;">Our Wedding</h1>
 
-                <div class="py-4">
-                    <div class="img-crop border border-3 border-light shadow mx-auto">
-                        <img src="./assets/images/bg.png" alt="bg" onclick="util.modal(this)">
+                    <div class="py-4">
+                        <!--<div class="img-crop  border-3 border-light shadow mx-auto">-->
+                        <div class="img-crop  border-3 border-light mx-auto">
+                            <img src="./assets/images/ilustrasi.png" alt="ilustrasi" onclick="util.modal(this)">
+                        </div>
                     </div>
-                </div>
 
-                <h2 class="font-esthetic my-4" style="font-size: 2.5rem;">Wahyu &amp; Riski</h2>
-                <p class="mb-0" style="font-size: 1.25rem;">Rabu, 15 Maret 2023</p>
+                    <h2 class="gilda-display-regular" style="font-size: 32px; margin-top: 5rem; color: #3F454B;">Rhavi</h2>
+                    <h2 class="gilda-display-regular" style="font-size: 20px; color: #6A7880;">&amp;</h2>
+                    <h2 class="gilda-display-regular" style="font-size: 32px; color: #3F454B;">Rizki</h2>
 
-                <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-2" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
-                    <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
-                </a>
-
-                <div class="d-flex justify-content-center align-items-center mt-4 mb-2">
-                    <div class="mouse-animation border border-2">
-                        <div class="scroll-animation"></div>
+                    <div class="text-day d-flex" style="margin: 20%;">
+                        <div class="line-side-indicator"></div>
+                        <div class="flex-container">
+                            <p class="gilda-display-regular" style="font-size: 12px; color: #3F454B; margin-top: .5rem; margin-bottom: 0rem; letter-spacing: 2px">SUNDAY</p>
+                            <p class="gilda-display-regular" style="font-size: 12px; color: #3F454B; margin-bottom: .5rem;">19.01.2025</p>
+                        </div>
                     </div>
-                </div>
+                    
+                    <a class="btn btn-outline-light btn-sm shadow rounded-pill px-3 my-10" style="color: #3F454B; margin-bottom: 3rem" target="_blank" href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=The%20Wedding%20of%20Wahyu%20and%20Riski&details=The%20Wedding%20of%20Wahyu%20and%20Riski%20%7C%2015%20Maret%202023%20%7C%20RT%2010%20RW%2002,%20Desa%20Pajerukan,%20Kec.%20Kalibagor,%20Kab.%20Banyumas,%20Jawa%20Tengah%2053191%20%7C%2010.00%20-%2011.00%20WIB&dates=20230315T100000/20230315T110000&location=https://goo.gl/maps/ALZR6FJZU3kxVwN86">
+                        <i class="fa-solid fa-calendar-check me-2"></i>Save The Date
+                    </a>
 
-                <p class="m-0 p-0" style="font-size: 0.95rem;">Scroll Down</p>
+                    <!--<div class="d-flex justify-content-center align-items-center mt-4 mb-2">
+                        <div class="mouse-animation border border-2">
+                            <div class="scroll-animation"></div>
+                        </div>
+                    </div>
+
+                    <p class="m-0 p-0" style="font-size: 0.95rem; color: #3F454B;">Scroll Down</p>-->
+                </div>
             </div>
         </section>
-
+        
         <!-- Wave Separator -->
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="color-theme-black">
             <path fill="currentColor" fill-opacity="1" d="M0,160L48,144C96,128,192,96,288,106.7C384,117,480,171,576,165.3C672,160,768,96,864,96C960,96,1056,160,1152,154.7C1248,149,1344,75,1392,37.3L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
@@ -260,7 +279,7 @@
         </svg>
 
         <!-- Wedding Date -->
-        <section class="dark-section bg-black" id="wedding-date">
+        <section class="dark-section bg-black" style="background-color: #efebeb;" id="wedding-date">
 
             <div class="container">
                 <div class="text-center">
@@ -549,10 +568,10 @@
         <div class="d-flex justify-content-center align-items-center" style="height: 100vh !important;">
             <div class="bg-landing-page">
                 <div class="text-date">
-                    <p class="gilda-display-regular mb-4">19 <br> 01 <br> 25</p>
+                    <p class="gilda-display-regular">19 <br> 01 <br> 25</p>
                 </div>
                 <div class="text-bride">
-                    <h2 class="gilda-display-regular mb-4" style="font-size: 2.5rem; letter-spacing: 7px">RHAVI</h2>
+                    <h2 class="gilda-display-regular" style="font-size: 4rem; letter-spacing: 7px">RHAVI</h2>
 
                     <!--
                     <div class="img-crop border border-3 border-light shadow mb-4 mx-auto">
@@ -560,17 +579,19 @@
                     </div>
                     -->
     
-                    <h2 class="gilda-display-regular mb-4" style="color: #D9D9D9; font-size: 2.5rem; padding-left: 20px;">&amp;</h2>
+                    <h2 class="gilda-display-regular" style="color: #D9D9D9; font-size: 4rem; padding-left: 20px;">&amp;</h2>
     
-                    <h2 class="gilda-display-regular my-4" style="font-size: 2.5rem; letter-spacing: 7px">RIZKI</h2>
+                    <h2 class="gilda-display-regular" style="font-size: 4rem; letter-spacing: 7px">RIZKI</h2>
                     <div style="padding: 20px;">
                     </div>
                 </div>
                 <div class="text-center">
+                    <div class="gilda-display-regular" style="color: #3F454B; font-size: 12px; letter-spacing: 3px;">DEAR,</div>
                     <div id="guest-name" data-message="Kepada Yth Bapak/Ibu/Saudara/i"></div>
     
-                    <button type="button" class="btn btn-light shadow rounded-4 mt-4" onclick="guest.open(this)">
-                        <i class="fa-solid fa-envelope-open me-2"></i>Open Invitation
+                    <button type="button" class="btn btn-light shadow rounded-5 mt-4" style="padding: 10px; padding-inline: 30px;" onclick="guest.open(this)">
+                        <i class="gilda-display-regular" style="font-size: 12px; letter-spacing: 3px;">OPEN INVITATION</i>
+                        <!--<i class="fa-solid fa-envelope-open me-2"></i>Open Invitation-->
                     </button>
                 </div>
             </div>
@@ -579,13 +600,13 @@
     </div>
 
     <!-- Theme Button -->
-    <button type="button" id="button-theme" style="display: none;" class="btn bg-dark border border-2 btn-sm rounded-circle btn-theme" onclick="theme.change()">
+    <!--<button type="button" id="button-theme" style="display: none;" class="btn bg-dark border border-2 btn-sm rounded-circle btn-theme" onclick="theme.change()">
         <i class="fa-solid fa-circle-half-stroke"></i>
-    </button>
+    </button>-->
 
     <!-- Audio Button -->
-    <button type="button" id="button-music" style="display: none;" class="btn bg-dark border border-2 btn-sm rounded-circle btn-music" onclick="audio.button(this)" data-url="./assets/music/sound.mp3">
-        <i class="fa-solid fa-circle-pause spin-button"></i>
+    <button type="button" id="button-music" style="display: none; padding: 5px 5px" class="btn bg-dark border border-2 btn-sm rounded-circle btn-music" onclick="audio.button(this)" data-url="./assets/music/music.mp3">
+        <i class="fa-solid spin-button"><img src="./assets/images/musical-note.png"></i>
     </button>
 
     <!-- Loading Page -->

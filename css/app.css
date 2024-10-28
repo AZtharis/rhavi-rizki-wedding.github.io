@@ -14,22 +14,23 @@
     font-family: Sacramento, cursive !important;
 }
 
-.gilda-display-regular {
-    font-family: "Gilda Display", serif;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .font-arabic {
     font-family: 'Noto Naskh Arabic', serif !important;
 }
 
+.lavishly-yours-regular {
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
 .img-crop {
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 100%;
     position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+    overflow: visible;
+    border-radius: 25%;
 }
 
 .img-crop>img {
@@ -41,7 +42,7 @@
 
 .btn-music {
     position: fixed;
-    bottom: 9vh !important;
+    bottom: 3vh !important;
     right: 2vh !important;
     z-index: 1055 !important;
 }
@@ -66,17 +67,41 @@
     border-radius: 200px 200px 0 0px;
     padding: 30px;
     width: 100%;
-    height: 700px;
+    height: 800px;
     z-index: 1055 !important;
+    margin-top: 0%;
+}
+
+.line-side-indicator {
+    padding-right: 1px;
+    margin-right: .5rem;
+    background-color: #3F454B;
+}
+
+.bg-custom-white {
+    color: rgb(202, 93, 93);
 }
 
 .text-date {
+    text-align: right;
     font-size: 1rem;
     padding-top: 100px;
-    text-align: right;
+}
+
+.text-day {
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 15%;
+}
+
+.gilda-display-regular {
+    font-family: "Gilda Display", serif;
+    font-weight: 200;
+    font-style: normal;
 }
 
 .text-bride {
+    text-align: center;
     padding: 30px;
     padding-right: 60px;
 }
@@ -91,7 +116,7 @@
 }
 
 .color-theme-black {
-    color: black;
+    color: white;
 }
 
 .bg-cover-home {
