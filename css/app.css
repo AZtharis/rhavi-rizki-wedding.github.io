@@ -75,17 +75,29 @@
 .line-side-indicator {
     padding-right: 1px;
     margin-right: .5rem;
+    margin-left: .5rem;
+    background-color: #3F454B;
+}
+
+.line-separator {
+    padding-top: 1px;
+    margin-inline: 16%;
     background-color: #3F454B;
 }
 
 .bg-custom-white {
-    color: rgb(202, 93, 93);
+    color: rgb(255, 255, 255);
 }
 
 .text-date {
-    text-align: right;
-    font-size: 1rem;
-    padding-top: 100px;
+    /*text-align: right;
+    margin-top: 200px;
+    margin-right: 5%;*/
+    
+    text-align: center;
+    margin-top: 105px;
+    margin-left: 260px;
+    padding: 10px;
 }
 
 .text-day {
@@ -100,10 +112,48 @@
     font-style: normal;
 }
 
+.la-belle-aurore-regular {
+    font-family: "La Belle Aurore", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.scheherazade-new-regular {
+    font-family: "Scheherazade New", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.scheherazade-new-medium {
+    font-family: "Scheherazade New", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.scheherazade-new-semibold {
+    font-family: "Scheherazade New", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.scheherazade-new-bold {
+    font-family: "Scheherazade New", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.afacad-new {
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .text-bride {
     text-align: center;
-    padding: 30px;
-    padding-right: 60px;
+    margin-top: 30px;
+    margin-right: 70px;
+    padding: 10px;
 }
 
 .dark-section {
